@@ -1,12 +1,13 @@
 //import React from "react";
 // import { grpc } from "@improbable-eng/grpc-web";
 import { Buffer } from "buffer";
+import { grpc } from "@improbable-eng/grpc-web";
 //import grpc from "@grpc/grpc-js";
 //import { conditionalExpression } from "@babel/types";
 //import generate from "@babel/generator";
 //require("dotenv").config();
 
-var grpc = require("@improbable-eng/grpc-web");
+//var grpc = require("@improbable-eng/grpc-web");
 //var Buffer = require("buffer");
 var GenerationService = require("./generation/generation_pb_service");
 var Generation = require("./generation/generation_pb");
