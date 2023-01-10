@@ -116,6 +116,7 @@ async function generate(inputText) {
   return { status: -1, imgsrc: null };
 }
 
-export default async function handler(request, response) {
-  return response.end(`Hello`);
+export default async function (request, response) {
+  const { name = "World" } = request.query;
+  return response.end(`Hello ${name}`);
 }
