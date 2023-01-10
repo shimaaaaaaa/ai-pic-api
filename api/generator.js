@@ -117,5 +117,5 @@ async function generate(inputText) {
 }
 
 export default async function generate(reqest, response) {
-  response.send(`Hello`);
+  return response.end(`Hello`);
 }
