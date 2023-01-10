@@ -1,0 +1,16 @@
+{
+  "name": "ai-pic-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "@improbable-eng/grpc-web": "^0.15.0",
+    "buffer": "^6.0.3"
+  }
+}
