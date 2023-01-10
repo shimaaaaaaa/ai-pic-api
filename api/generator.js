@@ -116,6 +116,6 @@ async function generate(inputText) {
   return { status: -1, imgsrc: null };
 }
 
-export default async function generate(req, res) {
-  res.send(`Hello`);
+export default async function generate(reqest, response) {
+  response.send(`Hello`);
 }
