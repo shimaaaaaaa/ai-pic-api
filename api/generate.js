@@ -117,6 +117,6 @@ async function generate(inputText) {
 }
 
 export default async function (request, response) {
-  const { name = "World" } = request.query;
-  return response.end(`Hello ${name}`);
+  const { prompt = "World" } = request.query;
+  return response.end(generate(prompt));
 }
