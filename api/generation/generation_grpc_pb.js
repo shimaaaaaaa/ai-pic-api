@@ -3,7 +3,7 @@
 "use strict";
 var grpc = require("@improbable-eng/grpc-web");
 var generation_pb = require("./generation_pb");
-var tensors_pb = require("./tensors_pb");
+//var tensors_pb = require("./tensors_pb");
 
 function serialize_gooseai_Answer(arg) {
   if (!(arg instanceof generation_pb.Answer)) {
