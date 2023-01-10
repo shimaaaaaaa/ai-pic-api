@@ -12,5 +12,9 @@
   "devDependencies": {
     "@improbable-eng/grpc-web": "^0.15.0",
     "buffer": "^6.0.3"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "^1.8.2",
+    "s": "^1.0.0"
   }
 }
