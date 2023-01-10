@@ -1,7 +1,7 @@
 // GENERATED CODE -- DO NOT EDIT!
 
 "use strict";
-var grpc = require("@improbable-eng/grpc-web");
+var grpc = require("@grpc/grpc-js");
 var generation_pb = require("./generation_pb");
 //var tensors_pb = require("./tensors_pb");
 
