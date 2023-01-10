@@ -1,7 +1,7 @@
 //import React from "react";
 // import { grpc } from "@improbable-eng/grpc-web";
 import { Buffer } from "buffer";
-import { grpc } from "@grpc/grpc-js";
+import { grpc } from "@improbable-eng/grpc-web";
 //import grpc from "@grpc/grpc-js";
 //import { conditionalExpression } from "@babel/types";
 //import generate from "@babel/generator";
